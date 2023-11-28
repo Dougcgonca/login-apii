@@ -19,7 +19,7 @@ app.get('/:id', (req, res)=>{
   }
 })
 
-app.post('/:id', (req, res) =>{
+app.post('/', (req, res) =>{
  const { name } = req.body
 
  if(!name){
